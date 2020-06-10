@@ -1,0 +1,336 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.wrapper {
+    width: 100%;
+    height: 100vh;
+    background-color: #F0F0F0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper svg {
+    width: 95%;
+    height: 95%;
+    
+}
+
+.fan-rotation {
+    animation: rotation 1s linear infinite;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+
+@keyframes rotation {
+    from {
+        transform: rotateZ(0deg);
+    }
+    to {
+        transform: rotateZ(360deg);
+    }
+}
+
+.storage {
+    fill: url(#Degrade_storage);
+    stroke: #000;
+    stroke-miterlimit: 10;
+}
+
+.section-1 {
+    stroke: #000;
+    stroke-miterlimit: 10;
+    fill: #787878;
+}
+
+.section-2 {
+    stroke: #000;
+    stroke-miterlimit: 10;
+    fill: #787878;
+}
+
+.section-3 {
+    stroke: #000;
+    stroke-miterlimit: 10;
+    fill: #787878;
+}
+
+.section-4 {
+    stroke: #000;
+    stroke-miterlimit: 10;
+    fill: #787878;
+}
+
+.section-5 {
+    stroke: #000;
+    stroke-miterlimit: 10;
+    fill: #787878;
+}
+
+.section-6 {
+    stroke: #000;
+    stroke-miterlimit: 10;
+    fill: #787878;
+}
+
+.section-7 {
+    stroke: #000;
+    stroke-miterlimit: 10;
+    fill: #787878;
+}
+
+.section-8 {
+    stroke: #000;
+    stroke-miterlimit: 10;
+    fill: #787878;
+}
+
+.vanne-1 {
+    fill: #787878;
+    stroke: #000;
+    stroke-miterlimit: 10;
+}
+
+.vanne-2 {
+    fill: #787878;
+    stroke: #000;
+    stroke-miterlimit: 10;
+}
+
+.vanne-3 {
+    fill: #787878;
+    stroke: #000;
+    stroke-miterlimit: 10;
+}
+
+.vanne-4 {
+    fill: #787878;
+    stroke: #000;
+    stroke-miterlimit: 10;
+}
+
+.vanne-5 {
+    fill: #787878;
+    stroke: #000;
+    stroke-miterlimit: 10;
+}
+
+.vanne-6 {
+    fill: #787878;
+    stroke: #000;
+    stroke-miterlimit: 10;
+}
+
+.flame-1 {
+    /*fill: #F24306;*/
+    fill: #787878;
+}
+
+.flame-2 {
+    /*fill: #F24306;*/
+    fill: #787878;
+}
+
+.oven-1 {
+    stroke: #000;
+    stroke-miterlimit: 10;
+    fill: #787878;
+}
+
+.oven-2 {
+    stroke: #000;
+    stroke-miterlimit: 10;
+    fill: #787878;
+}
+
+.mirror {
+    stroke-miterlimit: 10;
+    fill: none;
+    stroke: #b3b3b3;
+    stroke-width: 0.75px;
+}
+
+.scale {
+    background-color: chartreuse;
+}
+
+.txtscale {
+    font-size: 14px;
+    fill: #000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hyphen {
+    stroke-miterlimit: 10;
+    stroke: #000;
+}
+
+.boxdisplay {
+    stroke-miterlimit: 10;
+    stroke: #000;
+    fill: #E0CDA9;
+}
+
+.scale {
+    fill: url(#Degrade_scale);
+    stroke: #000;
+    stroke-miterlimit: 10;
+}
+
+.textdivstorage{
+    width: 45px;
+    height: 14px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    line-height: 15px;
+    cursor: default;
+    -webkit-touch-callout: none;
+    /* iOS Safari */
+    -webkit-user-select: none;
+    /* Safari */
+    -khtml-user-select: none;
+    /* Konqueror HTML */
+    -moz-user-select: none;
+    /* Old versions of Firefox */
+    -ms-user-select: none;
+    /* Internet Explorer/Edge */
+    user-select: none;
+
+}
+
+.textdivstorage:hover{
+
+    font-size: 10px;
+}
+
+.textoven {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.textdiv {
+    width: 50px;
+    height: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 22px;
+    cursor: default;
+    -webkit-touch-callout: none;
+    /* iOS Safari */
+    -webkit-user-select: none;
+    /* Safari */
+    -khtml-user-select: none;
+    /* Konqueror HTML */
+    -moz-user-select: none;
+    /* Old versions of Firefox */
+    -ms-user-select: none;
+    /* Internet Explorer/Edge */
+    user-select: none;
+}
+
+.textdiv:hover{
+    font-size: 10px;
+    
+}
+
+.textdivlarg {
+    width: 71px;
+    height: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 22px;
+    cursor: default;
+    -webkit-touch-callout: none;
+    /* iOS Safari */
+    -webkit-user-select: none;
+    /* Safari */
+    -khtml-user-select: none;
+    /* Konqueror HTML */
+    -moz-user-select: none;
+    /* Old versions of Firefox */
+    -ms-user-select: none;
+    /* Internet Explorer/Edge */
+    user-select: none;
+}
+
+.textdivlarg:hover {
+    font-size: 10px;
+}
+
+.textdivhorizon {
+    width: 48px;
+    height: 17px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 18px;
+    cursor: default;
+    -webkit-touch-callout: none;
+    /* iOS Safari */
+    -webkit-user-select: none;
+    /* Safari */
+    -khtml-user-select: none;
+    /* Konqueror HTML */
+    -moz-user-select: none;
+    /* Old versions of Firefox */
+    -ms-user-select: none;
+    /* Internet Explorer/Edge */
+    user-select: none;
+}
+
+.textdivhorizon:hover {
+    font-size: 10px;
+}
+
+.textdivhorizonlarg {
+    width: 72px;
+    height: 17px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 18px;
+    cursor: default;
+    -webkit-touch-callout: none;
+    /* iOS Safari */
+    -webkit-user-select: none;
+    /* Safari */
+    -khtml-user-select: none;
+    /* Konqueror HTML */
+    -moz-user-select: none;
+    /* Old versions of Firefox */
+    -ms-user-select: none;
+    /* Internet Explorer/Edge */
+    user-select: none;
+}
+
+.textdivhorizonlarg:hover {
+    font-size: 10px;
+} 
+
+@keyframes translate {
+    0% {
+        transform: translateX(0px);
+        opacity: 0;
+    }
+    10% {
+        opacity: 1;
+    }
+    80% {
+        opacity: 1;
+    }
+    100% {
+        transform: translateX(25px);
+        opacity: 0;
+    }
+}
